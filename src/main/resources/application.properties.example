@@ -1,0 +1,15 @@
+# Configurações do Banco de Dados (PostgreSQL)
+spring.datasource.url=jdbc:postgresql://localhost:5432/encurl
+spring.datasource.username=seu_usuario
+spring.datasource.password=sua_senha
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.show-sql=true
+
+# Configurações do Redis (Cache)
+spring.data.redis.host=localhost
+spring.data.redis.port=6379
+spring.cache.type=redis
+
+# Configurações do Swagger (OpenAPI)
+springdoc.api-docs.path=/api-docs
+springdoc.swagger-ui.path=/swagger-ui.html
