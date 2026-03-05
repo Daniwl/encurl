@@ -1,27 +1,44 @@
-HELP.md
+# Java / Maven
 target/
+*.class
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Maven Wrapper
 .mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
-*.zip
+
+# Spring Boot
+HELP.md
 application.properties
+application.properties.example
+!.gitignore
 
-### STS  ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
+# Podman / Docker
+.docker/
+pgdata/
+redisdata/
 
-### IntelliJ IDEA ###
-.idea
+# Logs
+*.log
+
+# IDEs
+.idea/
 *.iws
 *.iml
 *.ipr
-
-### NetBeans ###
+.vscode/
+.settings/
+.classpath
+.project
+.factorypath
+.springBeans
+.sts4-cache
 /nbproject/private/
 /nbbuild/
 /dist/
@@ -31,5 +48,9 @@ build/
 !**/src/main/**/build/
 !**/src/test/**/build/
 
-### VS Code ###
-.vscode/
+# OS
+.DS_Store
+Thumbs.db
+
+# Documents
+*.txt
