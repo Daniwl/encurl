@@ -49,12 +49,12 @@ O projeto foi dividido em fases evolutivas para aplicar conceitos de System Desi
 
 ```json
 {
-  "url": "https://www.google.com/search?q=system+design+java"
+  "urlOriginal": "https://www.google.com/search?q=system+design+java"
 }
 
 ```
 
-* **Response (200 OK):** `{ "urlEncurtado": "http://base.url/a5B2" }`
+* **Response (200 OK):** `{ "urlCurta": "http://base.url/a5B2" }`
 
 ### Redirecionar
 
