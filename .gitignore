@@ -23,6 +23,7 @@ application.properties.example
 .docker/
 pgdata/
 redisdata/
+.env
 
 # Logs
 *.log
