@@ -46,7 +46,8 @@ public class EncurtarService {
 	public String recuperarUrlOriginal(String id) {
 		Long idDecodificado = encoder.decodificar(id);
 		Link link = linkRepository.findById(idDecodificado)
-				.orElseThrow(() -> new UrlNaoEncontradaException("Link não encontrado para o código: " + id));;
+				.orElseThrow(() -> new UrlNaoEncontradaException("Link não encontrado para o código: " + id));
+
 		return link.getUrl();
 	}
 }
